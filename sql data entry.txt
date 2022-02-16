@@ -1,0 +1,88 @@
+insert into admin values (1,'nikith','Nikith')
+
+insert into plant values(22,'Apocynceae','hard','medicinal',2345,'FloweringPlant',12.3,'23','Inside home purpose')
+
+
+insert into planter values(1021,12.23,2,7,'blue','circle',234,2345)
+
+insert into seed values(1021,'circle','xyasd',7,234,'asgfdui',12,123,234,'agfduh','yes')
+
+
+insert into customer values(10002,1002,'Hyderabad','KPHB',123,508544,'Telangana','gayi.d2000@gmail.com','gayi')
+------------------------------------------------------------------------------------------
+
+json for plant
+----
+{
+        "plantId": 88,
+        "plantHeight": 1,
+        "commonName": "trdApocynceae",
+        "medicinalOrCulinaryUse": "medicinal",
+        "difficultyLevel": "hard",
+        "temparature": 27,
+        "typeOfPlant": "garden purpose",
+        "plantDescription": "FloweringPlant",
+        "plantsStock": 23,
+        "plantCost": 254.0
+    }
+----
+
+json for seed
+
+----
+{
+        "seedId": 1021,
+        "commonName": "xyasd",
+        "bloomTime": "circle",
+        "watering": "yes",
+        "difficultyLevel": "7",
+        "temparature": 234,
+        "typeOfSeeds": "agfduh",
+        "seedsDescription": "asgfdui",
+        "seedsStock": 123,
+        "seedsCost": 234.0,
+        "seedsPerPacket": 12
+    }
+
+-------
+
+json for planter
+
+------
+{
+        "planterId": 1021,
+        "planterheight": 23.0,
+        "planterCapacity": 2,
+        "drinageHoles": 1,
+        "planterColor": "blue",
+        "planterShape": "circle",
+        "planterStock": 234,
+        "planterCost": 234.0
+    }
+------
+
+json for order
+
+-----------------
+{
+        
+        "orderDate": "2022-02-15",
+        "transactionMode": "card",
+        "quantity": 2,
+       
+        "purchase_type": "seed",
+        "uId": 1023,
+        "purchase_id": 1021
+    }
+
+--------------------
+
+json foe login 
+----------------------
+{
+        
+        "username": "nikith",
+        "password":"nikith@123"
+    }
+
+----------------------------
